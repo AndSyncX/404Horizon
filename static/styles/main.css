@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Orbitron:wght@400..900&display=swap');
+
+/*
+    <uniquifier>: Use a unique and descriptive class name
+    <weight>: Use a value from 400 to 900
+*/
+
+*{
+    margin: 0 auto;
+}
+
+body{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*
+.bodoni-moda-<uniquifier> {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+*/
+/*HEADER*/
+h2{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*MAIN*/
+.contenedor{
+    flex-direction: column;
+}
+
+.sub-contenedor{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+@media only screen and (min-width:768px){
+    h2{
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    .contenedor{
+        width: 90%;
+        height: 550px;
+        display: flex;
+        flex-direction: row;
+    }
+    .sub-contenedor{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+} 
+/*IMAGENES*/
+
+.banner{
+    background-image: url("/404Horizon/static/img/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+}
+
+/*TEXTOS*/
+
+.mensaje{
+    width: 300px;
+    height: 300px;
+}
+
+h1, p{
+    margin-bottom: 30px;
+}
+
+/*BOTONES*/
+
+a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #90d3f1;
+    padding: 20px;
+    display: inline-block;
+    border: 6px solid #000;
+    border-radius: 20px;
+    line-height: 20px;
+}
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #f1f1f1;
+}
