@@ -71,7 +71,7 @@ h2{
 /*IMAGENES*/
 
 .banner{
-    background-image: url("https://github.com/AndSyncX/404Horizon/blob/main/static/img/logo.png");
+    background-image: url("https://raw.githubusercontent.com/AndSyncX/404Horizon/main/static/img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
